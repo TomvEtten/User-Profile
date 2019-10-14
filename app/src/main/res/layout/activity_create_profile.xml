@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/ivUserPictureEdit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="145dp"
+        android:layout_height="78dp"
         android:layout_marginTop="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,7 +34,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayoutFistName"
-        android:layout_width="381dp"
+        android:layout_width="match_parent"
         android:layout_height="80dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,7 +52,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayoutLastName"
-        android:layout_width="381dp"
+        android:layout_width="match_parent"
         android:layout_height="80dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -69,7 +69,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputDescription"
-        android:layout_width="381dp"
+        android:layout_width="match_parent"
         android:layout_height="80dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -87,8 +87,8 @@
 
     <Button
         android:id="@+id/btnProfileSubmit"
-        android:layout_width="365dp"
-        android:layout_height="58dp"
+        android:layout_width="288dp"
+        android:layout_height="62dp"
         android:background="#911616"
         android:text="@string/submit_confirm"
         android:textColor="@android:color/white"
