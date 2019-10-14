@@ -2,7 +2,6 @@ package hva.nl.userprofile
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_create_profile.*
 import kotlinx.android.synthetic.main.activity_profile.*
 
 const val PROFILE_EXTRA = "PROFILE_EXTRA"
